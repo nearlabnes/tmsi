@@ -8,7 +8,7 @@ linux 64bit (14.04) or even a armhf architecture like the beaglebone black.
 The example implementation in main.cpp shows how the class and driver should be used.
 There will be a lot of text printed during the usage of the libusb which can be reduced my changing the class implementation and reducing the verbosity level of the libusb.
 
-##Installation
+## Installation
 To use the drive the libusb-1.0 is needed. Furthermore the fxload tool is needed to flash the ftid chip with fuss.hex data.
 
 For ubuntu or debian on beagle bone black this can be done with:
