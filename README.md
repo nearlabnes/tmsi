@@ -17,10 +17,10 @@ sudo apt-get install libusb-1.0-0
 sudo apt-get install libusb-1.0-0-dev
 sudo apt-get install fxload
 
-##Working principle
+## Working principle
 The tmsiDevice opens up a thread with realtime priority. So you will have to run the executable with sudo rights. If you do not want this you have to change the priority of the thread inside open function. Furthermore you would have to get access rights for usb device using a udev-rule.
 
-##MATLAB/Simulink
+## MATLAB/Simulink
 Using the build.m script a Block for ert_linux can be build which after creating of a Simulink Block
 using the generated .tlc and mex files can be used in external mode. This was tested with up to 100 Hz on a standard laptop or even a beaglebone black.
 ![alt tag](https://github.com/wiesener/tmsi/blob/master/tmsiSimulink.png)
