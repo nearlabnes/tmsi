@@ -1,4 +1,4 @@
-# tmsi
+# TMSI driver for Linux
 Libusb driver for TMSI porti
 
 The developed driver is based on the usage of the libusb-1.0.
